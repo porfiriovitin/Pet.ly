@@ -87,15 +87,15 @@ aside {
   
 }
 
-.morning,
-.afternoon {
+#morning,
+#afternoon {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 2em;
   width: fit-content; 
 }
 
-.afternoon {
+#afternoon {
   width: 100px;
 }
 
