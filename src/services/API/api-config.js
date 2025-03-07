@@ -1,3 +1,3 @@
 export const apiConfig = {
-    baseURL: "http://localhost:3333/schedules",
+    baseURL: "http://localhost:3333",
 }
