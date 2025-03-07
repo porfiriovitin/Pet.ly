@@ -26,9 +26,6 @@ selectedDate.min=inputToday
         const Owner = OwnerName.value.trim()
 
         const hourSelected = document.querySelector(".HourSelected").textContent
-        if(!hourSelected){
-            alert("Selecione um horário")
-        }
 
         const When = selectedDate.value
 
@@ -46,10 +43,10 @@ selectedDate.min=inputToday
        
     }catch(error){
         console.log(error)
-        alert("Não foi possível realizar o agendamento")
+        alert("Selecione um horário")
     }  
 
 })
 
-selectedDate.onchange(()=>hoursLoad())
+
 
