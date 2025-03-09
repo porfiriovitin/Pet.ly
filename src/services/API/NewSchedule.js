@@ -1,4 +1,5 @@
 import { apiConfig } from "./api-config.js";
+import { SchedulesShow } from "../schedules/schedulesShow.js";
 
 export async function scheduleNew({ id, Pet, Owner, hourSelected, When }) {
   try {
@@ -9,6 +10,7 @@ export async function scheduleNew({ id, Pet, Owner, hourSelected, When }) {
       },
       body: JSON.stringify({ id, Pet, Owner, hourSelected, When }),
     });
+
   } catch (error) {
     console.log(error);
     alert("Não foi possível agendar, tente novamente mais tarde");

@@ -179,7 +179,24 @@ aside {
     gap: 3em;
 }
 
-.Schedules__Container{
+.appointment {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.Appointment_Container{
+display: flex;
+width: 100%;
+justify-content: space-between;
+
+}
+
+.noAppointment{
+  display: none;
+}
+
+#Schedules__Container{
     display: flex;
     flex-direction: column;
     margin-top: 3em;
@@ -202,12 +219,7 @@ aside {
     width: 1.3em;
 }
 
-.appointment {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    align-items: center;
-}
+
 
 
 .pet{
